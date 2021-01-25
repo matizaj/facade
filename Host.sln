@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{D3F981A4-45DE-479B-ABB2-751A522B35E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{E845FD3A-48EA-4913-A1C0-60EEB113BFCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadeRoot", "FacadeRoot", "{C39D64ED-6584-471F-949C-C5AB89EEDAA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{597B6189-8968-49BC-9567-C1E32A9C19B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F981A4-45DE-479B-ABB2-751A522B35E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F981A4-45DE-479B-ABB2-751A522B35E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F981A4-45DE-479B-ABB2-751A522B35E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F981A4-45DE-479B-ABB2-751A522B35E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597B6189-8968-49BC-9567-C1E32A9C19B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597B6189-8968-49BC-9567-C1E32A9C19B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597B6189-8968-49BC-9567-C1E32A9C19B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597B6189-8968-49BC-9567-C1E32A9C19B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C39D64ED-6584-471F-949C-C5AB89EEDAA7} = {E845FD3A-48EA-4913-A1C0-60EEB113BFCB}
+		{597B6189-8968-49BC-9567-C1E32A9C19B6} = {C39D64ED-6584-471F-949C-C5AB89EEDAA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DC0432F-91E1-4306-867D-B85BE1213160}
+	EndGlobalSection
+EndGlobal

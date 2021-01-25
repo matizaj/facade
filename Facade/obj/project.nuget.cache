@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZNRi8OLr+gLdWEz9ErMItsp4gS5UvVKHb+ZUaW/x7bLVHCP2wEYcgVCcOpKHx+0HQgwcISwon+WulRBMts0+jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TRBC37\\source\\repos\\Host\\Facade\\Facade.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TRBC37\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
