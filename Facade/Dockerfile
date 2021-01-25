@@ -6,7 +6,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["*/Facade/Facade.csproj", "Facade/"]
+COPY ["Facade/Facade/Facade.csproj", "Facade/"]
 RUN dotnet restore "Facade/Facade.csproj"
 COPY . .
 WORKDIR "/src/Facade"
